@@ -52,3 +52,5 @@ password_no_white_space = not (password.startswith(' ') or password[-1] == ' ')
 user_and_password_valid = password_length and user_length and password_not_username and user_no_white_space and password_no_white_space
 user_and_password_valid
 
+# could also use ... for white spaces
+password_no_whitespace_ends = password[0] != ' ' and password[-1] != ' '
