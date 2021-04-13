@@ -30,4 +30,29 @@ truck ["make"] = truck ["make"].capitalize()
 truck ["model"] = truck ["model"].capitalize()
 print(truck)
 
+car['make'] = car['make'].capitalize()
+car['model'] = car['model'].capitalize()
+print(car)
+
 # 3. 
+vehicles = [
+    {
+        'make': 'Nissan',
+        'model': 'Frontier'
+    },
+
+    {
+        'make': 'Ford',
+        'model': 'Fusion'
+    },
+
+    {
+        'make': 'Suzuki',
+        'model': 'Hayabusa'
+    }
+]
+
+for vehicle in vehicles:
+    vehicle['make'] = vehicle['make'].upper()
+    vehicle['model'] = vehicle['model'].upper()
+print(vehicles)
